@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+    .text-hover:hover + ul{
+        opacity: 1;
+        pointer-events: initial;
+        visibility: visible;
+        transform: translateY(4px);
+    }
+    .animate-ul{
+        pointer-events: none;
+        visibility: hidden;
+        transition: all .5s;
+        transform: translateY(40px);
+    }
+    .animate-ul:hover{
+        pointer-events: initial;
+        visibility: visible;
+        opacity: 1;
+        transform: translateY(4px);
+    }
+    .input-animate input:checked ~ .content-div{
+        color: red; 
+    }
+}
