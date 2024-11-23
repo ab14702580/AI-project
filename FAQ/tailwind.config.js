@@ -6,6 +6,7 @@ module.exports = {
       colors: {
         'black-10': '#161313',
         'modify-color':'#805AF5',
+        'content-color': '#D1D1D1',
       },
     },
   },
