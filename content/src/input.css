@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities{
+    .text-hover:hover + ul{
+        opacity: 1;
+        pointer-events: initial;
+        visibility: visible;
+        transform: translateY(4px);
+    }
+    .animate-ul{
+        pointer-events: none;
+        visibility: hidden;
+        transition: all .5s;
+        transform: translateY(40px);
+    }
+    .animate-ul:hover{
+        pointer-events: initial;
+        visibility: visible;
+        opacity: 1;
+        transform: translateY(4px);
+    }
+    .text-background-color-fixed input:checked + label{
+        background: #805af5;
+    }
+    .text-background-color-fixed input{
+        display: none;
+    }
+    .text-animate{
+        color: #D1D1D1;
+        display: block;
+        font-size: 17px;
+        margin-top: 13px;
+        font-weight: 500;
+        transition: all 500ms;
+    }
+    .text-animate:hover{
+        color: #805AF5;
+    }
+}
