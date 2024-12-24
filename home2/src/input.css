@@ -6,4 +6,20 @@
     .animation-paused{
         animation-play-state: paused;
     }
+    .text-outline{
+        -webkit-text-stroke: 2px #805af5;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .text-animate{
+        color: #D1D1D1;
+        display: block;
+        font-size: 17px;
+        margin-top: 13px;
+        font-weight: 500;
+        transition: all 500ms;
+    }
+    .text-animate:hover{
+        color: #805AF5;
+    }
 }

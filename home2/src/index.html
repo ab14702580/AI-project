@@ -1,263 +1,1115 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
-    <link rel="shortcut icon" href="../assets/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="./output.css">
-    <link rel="stylesheet" href="./input.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="../assets/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./output.css" />
+    <link rel="stylesheet" href="./input.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home2</title>
-</head>
-<body class="h-screen bg-black-100 box-border scroll-smooth">
+  </head>
+  <body
+    class="h-auto bg-black-100 box-border scroll-smooth w-full overflow-x-hidden"
+  >
     <header>
-        <div class="w-[1200px] h-[117px] bg-black-m mx-auto flex items-center mt-5 rounded-full px-10">
-            <div class="w-[1170px] mx-auto flex justify-between items-center">
-            <div><img src="../assets/image1.svg" alt="icon here"></div>
-            <div>
-            <ul class="text-white flex gap-8 capitalize font-medium text-[17px]">
-                <li class="hover:text-blue-10 duration-300 text-blue-10"><a href="#" class="peer/ul-design pb-12">home <i class="fa-solid fa-angle-down"></i></a>
-                <ul class="text-white absolute mt-11 opacity-0 invisible pointer-events-none peer-hover/ul-design:visible peer-hover/ul-design:pointer-events-auto peer-hover/ul-design:opacity-100 hover:visible hover:opacity-100 hover:pointer-events-auto duration-500 translate-y-10 peer-hover/ul-design:translate-y-0 hover:translate-y-0">
-                    <li class="group/items1 w-[220px] h-[50px] bg-black-m2 border-b-[1px] border-solid border-color-b pl-5 pt-2 text-[17px] cursor-pointer"><a href="#" class=" group-hover/items1:text-blue-10 group-hover/items1:translate-x-3 inline-block duration-300">home1</a></li>
-                    <li class="group/items2 w-[220px] h-[50px] bg-black-m2 pl-5 pt-2 text-[17px] cursor-pointer"><a href="#" class=" group-hover/items2:text-blue-10 group-hover/items2:translate-x-3 inline-block duration-300 text-blue-10">home2</a></li>
+      <div
+        class="w-[1200px] h-[117px] bg-black-m mx-auto flex items-center mt-5 rounded-full px-10"
+      >
+        <div class="w-[1170px] mx-auto flex justify-between items-center">
+          <div><img src="../assets/image1.svg" alt="icon here" /></div>
+          <div>
+            <ul
+              class="text-white flex gap-8 capitalize font-medium text-[17px]"
+            >
+              <li class="hover:text-blue-10 duration-300 text-blue-10">
+                <a href="#" class="peer/ul-design pb-12"
+                  >home <i class="fa-solid fa-angle-down"></i
+                ></a>
+                <ul
+                  class="text-white absolute mt-11 opacity-0 invisible pointer-events-none peer-hover/ul-design:visible peer-hover/ul-design:pointer-events-auto peer-hover/ul-design:opacity-100 hover:visible hover:opacity-100 hover:pointer-events-auto duration-500 translate-y-10 peer-hover/ul-design:translate-y-0 hover:translate-y-0"
+                >
+                  <li
+                    class="group/items1 w-[220px] h-[50px] bg-black-m2 border-b-[1px] border-solid border-color-b pl-5 pt-2 text-[17px] cursor-pointer"
+                  >
+                    <a
+                      href="#"
+                      class="group-hover/items1:text-blue-10 group-hover/items1:translate-x-3 inline-block duration-300"
+                      >home1</a
+                    >
+                  </li>
+                  <li
+                    class="group/items2 w-[220px] h-[50px] bg-black-m2 pl-5 pt-2 text-[17px] cursor-pointer"
+                  >
+                    <a
+                      href="#"
+                      class="group-hover/items2:text-blue-10 group-hover/items2:translate-x-3 inline-block duration-300 text-blue-10"
+                      >home2</a
+                    >
+                  </li>
                 </ul>
-                </li>
-                <li class="hover:text-blue-10 duration-300"><a href="#">about us</a></li>
-                <li class="hover:text-blue-10 duration-300"><a href="#" class="peer/ul-design2 pb-12">Services <i class="fa-solid fa-angle-down"></i></a>
-                    <ul class="text-white absolute mt-11 opacity-0 invisible pointer-events-none peer-hover/ul-design2:visible peer-hover/ul-design2:pointer-events-auto peer-hover/ul-design2:opacity-100 hover:visible hover:opacity-100 hover:pointer-events-auto duration-500 translate-y-10 peer-hover/ul-design2:translate-y-0 hover:translate-y-0">
-                        <li class="group/items1 w-[220px] h-[50px] bg-black-m2 border-b-[1px] border-solid border-color-b pl-5 pt-2 text-[17px] cursor-pointer"><a href="#" class=" group-hover/items1:text-blue-10 group-hover/items1:translate-x-3 inline-block duration-300">Services</a></li>
-                        <li class="group/items2 w-[220px] h-[50px] bg-black-m2 pl-5 pt-2 text-[17px] cursor-pointer"><a href="#" class=" group-hover/items2:text-blue-10 group-hover/items2:translate-x-3 inline-block duration-300">Service Details</a></li>
-                    </ul>
-                </li>
-                <li class="hover:text-blue-10 duration-300"><a href="#" class="peer/ul-design3 pb-12">Blog <i class="fa-solid fa-angle-down"></i></a>
-                    <ul class="text-white absolute mt-11 opacity-0 invisible pointer-events-none peer-hover/ul-design3:visible peer-hover/ul-design3:pointer-events-auto peer-hover/ul-design3:opacity-100 hover:visible hover:opacity-100 hover:pointer-events-auto duration-500 translate-y-10 peer-hover/ul-design3:translate-y-0 hover:translate-y-0">
-                        <li class="group/items1 w-[220px] h-[50px] bg-black-m2 border-b-[1px] border-solid border-color-b pl-5 pt-2 text-[17px] cursor-pointer"><a href="#" class=" group-hover/items1:text-blue-10 group-hover/items1:translate-x-3 inline-block duration-300">blog</a></li>
-                        <li class="group/items2 w-[220px] h-[50px] bg-black-m2 pl-5 pt-2 text-[17px] cursor-pointer"><a href="#" class=" group-hover/items2:text-blue-10 group-hover/items2:translate-x-3 inline-block duration-300">blog Details</a></li>
-                    </ul>
-                </li>
-                <li class="hover:text-blue-10 duration-300"><a href="#">Price</a></li>
-                <li class="hover:text-blue-10 duration-300"><a href="#" class="peer/ul-design4 pb-12">Pages <i class="fa-solid fa-angle-down"></i></a>
-                    <ul class="text-white absolute mt-11 opacity-0 invisible pointer-events-none peer-hover/ul-design4:visible peer-hover/ul-design4:pointer-events-auto peer-hover/ul-design4:opacity-100 hover:visible hover:opacity-100 hover:pointer-events-auto duration-500 translate-y-10 peer-hover/ul-design4:translate-y-0 hover:translate-y-0">
-                        <li class="group/items1 w-[220px] h-[50px] bg-black-m2 pl-5 pt-2 text-[17px] cursor-pointer"><a href="#" class=" group-hover/items1:text-blue-10 group-hover/items1:translate-x-3 inline-block duration-300">FAQ</a></li>
-                    </ul>
-                </li>
-                <li class="hover:text-blue-10 duration-300"><a href="#">Contact</a></li>
+              </li>
+              <li class="hover:text-blue-10 duration-300">
+                <a href="#">about us</a>
+              </li>
+              <li class="hover:text-blue-10 duration-300">
+                <a href="#" class="peer/ul-design2 pb-12"
+                  >Services <i class="fa-solid fa-angle-down"></i
+                ></a>
+                <ul
+                  class="text-white absolute mt-11 opacity-0 invisible pointer-events-none peer-hover/ul-design2:visible peer-hover/ul-design2:pointer-events-auto peer-hover/ul-design2:opacity-100 hover:visible hover:opacity-100 hover:pointer-events-auto duration-500 translate-y-10 peer-hover/ul-design2:translate-y-0 hover:translate-y-0"
+                >
+                  <li
+                    class="group/items1 w-[220px] h-[50px] bg-black-m2 border-b-[1px] border-solid border-color-b pl-5 pt-2 text-[17px] cursor-pointer"
+                  >
+                    <a
+                      href="#"
+                      class="group-hover/items1:text-blue-10 group-hover/items1:translate-x-3 inline-block duration-300"
+                      >Services</a
+                    >
+                  </li>
+                  <li
+                    class="group/items2 w-[220px] h-[50px] bg-black-m2 pl-5 pt-2 text-[17px] cursor-pointer"
+                  >
+                    <a
+                      href="#"
+                      class="group-hover/items2:text-blue-10 group-hover/items2:translate-x-3 inline-block duration-300"
+                      >Service Details</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="hover:text-blue-10 duration-300">
+                <a href="#" class="peer/ul-design3 pb-12"
+                  >Blog <i class="fa-solid fa-angle-down"></i
+                ></a>
+                <ul
+                  class="text-white absolute mt-11 opacity-0 invisible pointer-events-none peer-hover/ul-design3:visible peer-hover/ul-design3:pointer-events-auto peer-hover/ul-design3:opacity-100 hover:visible hover:opacity-100 hover:pointer-events-auto duration-500 translate-y-10 peer-hover/ul-design3:translate-y-0 hover:translate-y-0"
+                >
+                  <li
+                    class="group/items1 w-[220px] h-[50px] bg-black-m2 border-b-[1px] border-solid border-color-b pl-5 pt-2 text-[17px] cursor-pointer"
+                  >
+                    <a
+                      href="#"
+                      class="group-hover/items1:text-blue-10 group-hover/items1:translate-x-3 inline-block duration-300"
+                      >blog</a
+                    >
+                  </li>
+                  <li
+                    class="group/items2 w-[220px] h-[50px] bg-black-m2 pl-5 pt-2 text-[17px] cursor-pointer"
+                  >
+                    <a
+                      href="#"
+                      class="group-hover/items2:text-blue-10 group-hover/items2:translate-x-3 inline-block duration-300"
+                      >blog Details</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="hover:text-blue-10 duration-300">
+                <a href="#">Price</a>
+              </li>
+              <li class="hover:text-blue-10 duration-300">
+                <a href="#" class="peer/ul-design4 pb-12"
+                  >Pages <i class="fa-solid fa-angle-down"></i
+                ></a>
+                <ul
+                  class="text-white absolute mt-11 opacity-0 invisible pointer-events-none peer-hover/ul-design4:visible peer-hover/ul-design4:pointer-events-auto peer-hover/ul-design4:opacity-100 hover:visible hover:opacity-100 hover:pointer-events-auto duration-500 translate-y-10 peer-hover/ul-design4:translate-y-0 hover:translate-y-0"
+                >
+                  <li
+                    class="group/items1 w-[220px] h-[50px] bg-black-m2 pl-5 pt-2 text-[17px] cursor-pointer"
+                  >
+                    <a
+                      href="#"
+                      class="group-hover/items1:text-blue-10 group-hover/items1:translate-x-3 inline-block duration-300"
+                      >FAQ</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="hover:text-blue-10 duration-300">
+                <a href="#">Contact</a>
+              </li>
             </ul>
+          </div>
+          <div>
+            <button
+              class="text-white px-[28px] py-[17px] border-[1px] border-solid border-blue-10 rounded-full font-medium text-lg hover:bg-blue-10 duration-500"
+            >
+              Get A quote <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
         </div>
-        <div><button class="text-white px-[28px] py-[17px] border-[1px] border-solid border-blue-10 rounded-full font-medium text-lg hover:bg-blue-10 duration-500">Get A quote <i class="fa-solid fa-arrow-right"></i></button></div>
-    </div>
-        </div>
+      </div>
     </header>
     <aside class="group/text-animation w-full overflow-hidden">
-        <div class="mt-[100px]">
-            <p class="text-white text-center text-[70px] mx-auto w-[700px] font-bold leading-[90px] group-hover/text-animation:animate-text_animate1">Enhancing Customer <span class="text-blue-10"> Support </span> with AI</p>
-            <p class="mt-5 text-center mx-auto w-[890px] text-content font-bold text-base group-hover/text-animation:animate-text_animate2">AI (Artificial Intelligence) is a branch of computer science that focuses on the development of intelligent machines that can perform tasks that typically require human intelligence. This includes learning</p>
-        </div>
-        <div class="mt-20 mx-auto mb-[100px] relative flex justify-center">
-            <form action="#" method="post" class="flex">
-            <input type="email" class="w-[600px] border-[1px] border-solid border-blue-10 outline-none h-[58px] bg-transparent rounded-full text-white font-medium px-10 pr-[180px]" placeholder="Enter Email Address" required>
-            <button class="bg-blue-10 text-white font-medium text-lg w-[155px] h-[59px] rounded-full -ml-[156px] hover:bg-transparent duration-500 border-[1px] border-solid border-blue-10">Start AI <i class="fa-solid fa-arrow-right"></i></button>
+      <div class="mt-[100px]">
+        <p
+          class="text-white text-center text-[70px] mx-auto w-[700px] font-bold leading-[90px] group-hover/text-animation:animate-text_animate1"
+        >
+          Enhancing Customer <span class="text-blue-10"> Support </span> with AI
+        </p>
+        <p
+          class="mt-5 text-center mx-auto w-[890px] text-content font-bold text-base group-hover/text-animation:animate-text_animate2"
+        >
+          AI (Artificial Intelligence) is a branch of computer science that
+          focuses on the development of intelligent machines that can perform
+          tasks that typically require human intelligence. This includes
+          learning
+        </p>
+      </div>
+      <div class="mt-20 mx-auto mb-[100px] relative flex justify-center">
+        <form action="#" method="post" class="flex">
+          <input
+            type="email"
+            class="w-[600px] border-[1px] border-solid border-blue-10 outline-none h-[58px] bg-transparent rounded-full text-white font-medium px-10 pr-[180px]"
+            placeholder="Enter Email Address"
+            required
+          />
+          <button
+            class="bg-blue-10 text-white font-medium text-lg w-[155px] h-[59px] rounded-full -ml-[156px] hover:bg-transparent duration-500 border-[1px] border-solid border-blue-10"
+          >
+            Start AI <i class="fa-solid fa-arrow-right"></i>
+          </button>
         </form>
-        <div class="before:w-[420px] before:h-[420px] before:bg-[#402F6D] before:absolute before:-z-20 before:rounded-full before:translate-x-40 before:-translate-y-10 before:animate-infinite_circle-animation before:blur-[140px]">
-            <img src="../assets/image2.webp" alt="image here" class="absolute -right-[130px] mt-[-120px] -z-10 animate-infinite_animation inline-block">
+        <div
+          class="before:w-[420px] before:h-[420px] before:bg-[#402F6D] before:absolute before:-z-20 before:rounded-full before:translate-x-40 before:-translate-y-10 before:animate-infinite_circle-animation before:blur-[140px]"
+        >
+          <img
+            src="../assets/image2.webp"
+            alt="image here"
+            class="absolute -right-[130px] mt-[-120px] -z-10 animate-infinite_animation inline-block"
+          />
         </div>
+      </div>
+      <div
+        class="w-[1108px] h-[810px] relative mx-auto border-[1px] border-solid border-blue-10 rounded-[40px] z-0 before:bg-black before:absolute before:inset-0 before:rounded-[40px] before:-z-10 before:opacity-[.3] p-[60px]"
+      >
+        <div
+          class="absolute -left-56 bottom-28 -z-20 animate-infinite_animation2"
+        >
+          <img src="../assets/image6.webp" alt="image here" />
         </div>
-        <div class="w-[1108px] h-[810px] relative mx-auto border-[1px] border-solid border-blue-10 rounded-[40px] z-0 before:bg-black before:absolute before:inset-0 before:rounded-[40px] before:-z-10 before:opacity-[.3] p-[60px]">
-            <div class="absolute -left-56 bottom-28 -z-20 animate-infinite_animation2"><img src="../assets/image6.webp" alt="image here"></div>
-            <div class="flex gap-8">
-                <div class="w-[50%] h-[323px] border-[1px] border-solid border-blue-10 rounded-2xl text-white py-[45px] px-[40px]">
-                    <h1 class="text-2xl mb-5 font-medium">AI in Autonomous Vehicle</h1>
-                    <p class="text-lg font-medium">AI (Artificial Intelligence) is a branch of computer science that focuses on the development of intelligent machines that can perform tasks that typically require human intelligence. This includes learning</p>
-                </div>
-                <div class=" relative w-[50%] h-[323px] z-0 duration-500 py-[45px] px-[40px] rounded-2xl overflow-hidden border-[1px] border-[#19151d] hover:border-[1px] hover:border-solid hover:border-blue-10 before:bg-[url('../assets/image3.webp')] before:w-full before:h-full before:bg-no-repeat before:bg-center before:bg-cover before:absolute before:inset-0 before:rounded-2xl hover:before:opacity-0 before:opacity-100 before:duration-300">
-                    <div class="text-white ">
-                        <h1 class="text-2xl mb-5 font-medium">AI in Autonomous Vehicle</h1>
-                        <p class="text-lg font-medium">AI (Artificial Intelligence) is a branch of computer science that focuses on the development of intelligent machines that can perform tasks that typically require human intelligence. This includes learning</p>
-                    </div>
-                </div>
+        <div class="flex gap-8">
+          <div
+            class="w-[50%] h-[323px] border-[1px] border-solid border-blue-10 rounded-2xl text-white py-[45px] px-[40px]"
+          >
+            <h1 class="text-2xl mb-5 font-medium">AI in Autonomous Vehicle</h1>
+            <p class="text-lg font-medium">
+              AI (Artificial Intelligence) is a branch of computer science that
+              focuses on the development of intelligent machines that can
+              perform tasks that typically require human intelligence. This
+              includes learning
+            </p>
+          </div>
+          <div
+            class="relative w-[50%] h-[323px] z-0 duration-500 py-[45px] px-[40px] rounded-2xl overflow-hidden border-[1px] border-[#19151d] hover:border-[1px] hover:border-solid hover:border-blue-10 before:bg-[url('../assets/image3.webp')] before:w-full before:h-full before:bg-no-repeat before:bg-center before:bg-cover before:absolute before:inset-0 before:rounded-2xl hover:before:opacity-0 before:opacity-100 before:duration-300"
+          >
+            <div class="text-white">
+              <h1 class="text-2xl mb-5 font-medium">
+                AI in Autonomous Vehicle
+              </h1>
+              <p class="text-lg font-medium">
+                AI (Artificial Intelligence) is a branch of computer science
+                that focuses on the development of intelligent machines that can
+                perform tasks that typically require human intelligence. This
+                includes learning
+              </p>
             </div>
-            <div class="mt-[30px] flex gap-8 z-0">
-                <div class=" z-0 w-[307px] h-[323px] roudned-2xl border-[1px] border-[#151213] relative before:bg-[url('../assets/image4.webp')] before:bg-no-repeat before:bg-center before:bg-cover before:absolute before:inset-0 before:rounded-2xl hover:border-blue-10 rounded-2xl duration-500 overflow-hidden before:opacity-100 before:duration-300 hover:before:opacity-0 text-white px-[40px] py-[45px]">
-                    <h1 class="text-2xl mb-5 font-medium">Vehicle</h1>
-                    <p class="text-lg font-medium">AI (Artificial Intelligence) is a branch of computer science that focuses on the development</p>
-                </div>
-                <div class="w-[307px] h-[323px] roudned-2xl border-[1px] border-[#151213] relative before:bg-[url('../assets/image5.webp')] before:bg-no-repeat before:bg-center before:bg-cover before:absolute before:inset-0 before:rounded-2xl hover:border-blue-10 rounded-2xl duration-500 overflow-hidden before:opacity-100 before:duration-300 hover:before:opacity-0 text-white px-[40px] py-[45px]">
-                    <h1 class="text-2xl mb-5 font-medium">Vehicle</h1>
-                    <p class="text-lg font-medium">AI (Artificial Intelligence) is a branch of computer science that focuses on the development</p>
-                </div>
-                <div class="w-[307px] h-[335px] bg-[#1d1c1c] rounded-2xl pt-[45px] pb-[55px] px-[20px]">
-                    <div class="w-[269px] h-[103px] border-[1px] border-solid border-[#88868680] rounded-xl flex gap-10 p-6">
-                        <i class="fa-solid fa-play group/hover_animation peer/other_hover w-[50px] h-[50px] rounded-full bg-blue-10 text-white grid place-items-center cursor-pointer after:w-full after:h-full after:bg-blue-10 after:animate-infinite_watterflow after:absolute after:inset-0 after:-z-10 after:rounded-full after:hover:bg-white after:duration-300 relative z-0 group-hover/hover_animation:after:bg-white hover:text-blue-10 duration-300 hover:bg-white"></i>
-                        <h1 class="text-white cursor-pointer font-medium hover:text-blue-10 duration-300 peer-hover/other_hover:text-blue-10">Watch story <br> victor ada</h1>
-                    </div>
-                    <div class="w-[269px] h-[103px] border-[1px] border-solid border-[#88868680] rounded-xl flex gap-5 p-6 mt-6">
-                        <h1 class="text-[42px] text-white font-extrabold">40k+</h1>
-                        <p class="font-medium text-xl text-white">Winning <br> award</p>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+        <div class="mt-[30px] flex gap-8 z-0">
+          <div
+            class="z-0 w-[307px] h-[323px] roudned-2xl border-[1px] border-[#151213] relative before:bg-[url('../assets/image4.webp')] before:bg-no-repeat before:bg-center before:bg-cover before:absolute before:inset-0 before:rounded-2xl hover:border-blue-10 rounded-2xl duration-500 overflow-hidden before:opacity-100 before:duration-300 hover:before:opacity-0 text-white px-[40px] py-[45px]"
+          >
+            <h1 class="text-2xl mb-5 font-medium">Vehicle</h1>
+            <p class="text-lg font-medium">
+              AI (Artificial Intelligence) is a branch of computer science that
+              focuses on the development
+            </p>
+          </div>
+          <div
+            class="w-[307px] h-[323px] roudned-2xl border-[1px] border-[#151213] relative before:bg-[url('../assets/image5.webp')] before:bg-no-repeat before:bg-center before:bg-cover before:absolute before:inset-0 before:rounded-2xl hover:border-blue-10 rounded-2xl duration-500 overflow-hidden before:opacity-100 before:duration-300 hover:before:opacity-0 text-white px-[40px] py-[45px]"
+          >
+            <h1 class="text-2xl mb-5 font-medium">Vehicle</h1>
+            <p class="text-lg font-medium">
+              AI (Artificial Intelligence) is a branch of computer science that
+              focuses on the development
+            </p>
+          </div>
+          <div
+            class="w-[307px] h-[335px] bg-[#1d1c1c] rounded-2xl pt-[45px] pb-[55px] px-[20px]"
+          >
+            <div
+              class="w-[269px] h-[103px] border-[1px] border-solid border-[#88868680] rounded-xl flex gap-10 p-6"
+            >
+              <i
+                class="fa-solid fa-play group/hover_animation peer/other_hover w-[50px] h-[50px] rounded-full bg-blue-10 text-white grid place-items-center cursor-pointer after:w-full after:h-full after:bg-blue-10 after:animate-infinite_watterflow after:absolute after:inset-0 after:-z-10 after:rounded-full after:hover:bg-white after:duration-300 relative z-0 group-hover/hover_animation:after:bg-white hover:text-blue-10 duration-300 hover:bg-white"
+              ></i>
+              <h1
+                class="text-white cursor-pointer font-medium hover:text-blue-10 duration-300 peer-hover/other_hover:text-blue-10"
+              >
+                Watch story <br />
+                victor ada
+              </h1>
+            </div>
+            <div
+              class="w-[269px] h-[103px] border-[1px] border-solid border-[#88868680] rounded-xl flex gap-5 p-6 mt-6"
+            >
+              <h1 class="text-[42px] text-white font-extrabold">40k+</h1>
+              <p class="font-medium text-xl text-white">
+                Winning <br />
+                award
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </aside>
     <section class="mt-28 relative z-0">
-        <div class="text-white font-bold text-[42px] text-center leading-[1.4] mb-20">
-            <h1>Learning Techniques AI <br> Development</h1>
+      <div
+        class="text-white font-bold text-[42px] text-center leading-[1.4] mb-20"
+      >
+        <h1>
+          Learning Techniques AI <br />
+          Development
+        </h1>
+      </div>
+      <div
+        class="z-0 w-[1108px] h-[622px] mx-auto relative border-[1px] border-solid border-blue-10 rounded-[40px] flex p-10 gap-8 after:w-full after:h-full after:bg-black after:opacity-[.2] after:absolute after:-z-10 after:inset-0 after:rounded-[40px] before:w-[420px] before:h-[420px] before:absolute before:bg-[#402F6D] before:rounded-[800px] before:left-0 before:bottom-[-218px] before:-z-20 before:animate-infinite_circle-animation before:blur-[140px]"
+      >
+        <div class="w-[499px] h-[390px]">
+          <img
+            src="../assets/image7.webp"
+            alt="image here"
+            class="w-full h-full inline-block rounded-[20px]"
+          />
         </div>
-        <div class="z-0 w-[1108px] h-[622px] mx-auto relative border-[1px] border-solid border-blue-10 rounded-[40px] flex p-10 gap-8 after:w-full after:h-full after:bg-black after:opacity-[.2] after:absolute after:-z-10 after:inset-0 after:rounded-[40px] before:w-[420px] before:h-[420px] before:absolute before:bg-[#402F6D] before:rounded-[800px] before:left-0 before:bottom-[-218px] before:-z-20 before:animate-infinite_circle-animation before:blur-[140px]">
-            <div class="w-[499px] h-[390px]">
-                <img src="../assets/image7.webp" alt="image here" class="w-full h-full inline-block rounded-[20px]">
+        <div class="flex flex-col gap-8">
+          <div
+            class="w-[499px] h-[160px] bg-[#1D1C1C] p-5 flex gap-3 rounded-[20px]"
+          >
+            <div
+              class="w-[65px] h-[33px] border-[1px] border-solid border-blue-10 flex justify-center items-center text-white rounded-full font-medium"
+            >
+              01
             </div>
-            <div class="flex flex-col gap-8">
-                <div class="w-[499px] h-[160px] bg-[#1D1C1C] p-5 flex gap-3 rounded-[20px]"> 
-                    <div class="w-[65px] h-[33px] border-[1px] border-solid border-blue-10 flex justify-center items-center text-white rounded-full font-medium">01</div>
-                    <div class="text-white">
-                        <h1 class="font-bold text-xl">Video Generator</h1>
-                        <p class="text-content-color2 font-bold mt-5 pr-[15px]">AI Artificial Intelligence is a branch of computer des science that focuses on the development of intelligent machines</p>
-                    </div>
-                </div>
-                <div class="w-[499px] h-[160px] bg-[#1D1C1C] p-5 flex gap-3 rounded-[20px]"> 
-                    <div class="w-[65px] h-[33px] border-[1px] border-solid border-blue-10 flex justify-center items-center text-white rounded-full font-medium">02</div>
-                    <div class="text-white">
-                        <h1 class="font-bold text-xl">Audio Generator</h1>
-                        <p class="text-content-color2 font-bold mt-5 pr-[15px] this-is-a-class">AI Artificial Intelligence is a branch of computer des science that focuses on the development of intelligent machines</p>
-                    </div>
-                </div>
-                <div class="w-[499px] h-[160px] bg-[#1D1C1C] p-5 flex gap-3 rounded-[20px]"> 
-                    <div class="w-[65px] h-[33px] border-[1px] border-solid border-blue-10 flex justify-center items-center text-white rounded-full font-medium">03</div>
-                    <div class="text-white">
-                        <h1 class="font-bold text-xl">Code Generator</h1>
-                        <p class="text-content-color2 font-bold mt-5 pr-[15px]">AI Artificial Intelligence is a branch of computer des science that focuses on the development of intelligent machines</p>
-                    </div>
-                </div>
+            <div class="text-white">
+              <h1 class="font-bold text-xl">Video Generator</h1>
+              <p class="text-content-color2 font-bold mt-5 pr-[15px]">
+                AI Artificial Intelligence is a branch of computer des science
+                that focuses on the development of intelligent machines
+              </p>
             </div>
+          </div>
+          <div
+            class="w-[499px] h-[160px] bg-[#1D1C1C] p-5 flex gap-3 rounded-[20px]"
+          >
+            <div
+              class="w-[65px] h-[33px] border-[1px] border-solid border-blue-10 flex justify-center items-center text-white rounded-full font-medium"
+            >
+              02
+            </div>
+            <div class="text-white">
+              <h1 class="font-bold text-xl">Audio Generator</h1>
+              <p
+                class="text-content-color2 font-bold mt-5 pr-[15px] this-is-a-class"
+              >
+                AI Artificial Intelligence is a branch of computer des science
+                that focuses on the development of intelligent machines
+              </p>
+            </div>
+          </div>
+          <div
+            class="w-[499px] h-[160px] bg-[#1D1C1C] p-5 flex gap-3 rounded-[20px]"
+          >
+            <div
+              class="w-[65px] h-[33px] border-[1px] border-solid border-blue-10 flex justify-center items-center text-white rounded-full font-medium"
+            >
+              03
+            </div>
+            <div class="text-white">
+              <h1 class="font-bold text-xl">Code Generator</h1>
+              <p class="text-content-color2 font-bold mt-5 pr-[15px]">
+                AI Artificial Intelligence is a branch of computer des science
+                that focuses on the development of intelligent machines
+              </p>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
-    <div class="section2 w-[1140px] h-[50px] mx-auto mt-[200px] overflow-hidden mb-[150px] "> 
-        <div class="group/animation-paused flex">
-        <div class="flex gap-5 animate-infinite_transform2 group-hover/animation-paused:animation-paused">
-            <div class="w-[214px] z-0 cursor-pointer">
-            <img src="../assets/image8.svg" alt="image here" class="w-[120px] h-[42px]">
+    <div
+      class="section2 w-[1140px] h-[50px] mx-auto mt-[200px] overflow-hidden mb-[150px]"
+    >
+      <div class="group/animation-paused flex">
+        <div
+          class="flex gap-5 animate-infinite_transform2 group-hover/animation-paused:animation-paused"
+        >
+          <div class="w-[214px] z-0 cursor-pointer">
+            <img
+              src="../assets/image8.svg"
+              alt="image here"
+              class="w-[120px] h-[42px]"
+            />
+          </div>
+          <div class="w-[214px] z-0 cursor-pointer">
+            <img
+              src="../assets/image9.svg"
+              alt="icon here"
+              class="w-[120px] h-[42px]"
+            />
+          </div>
+          <div class="w-[214px] z-0 cursor-pointer">
+            <img
+              src="../assets/image10.svg"
+              alt="icon here"
+              class="w-[120px] h-[42px]"
+            />
+          </div>
+          <div class="w-[214px] z-0 cursor-pointer">
+            <img
+              src="../assets/image11.svg"
+              alt="icon here"
+              class="w-[120px] h-[42px]"
+            />
+          </div>
+          <div class="w-[214px] z-0 cursor-pointer">
+            <img
+              src="../assets/image12.svg"
+              alt="icon here"
+              class="w-[120px] h-[42px]"
+            />
+          </div>
         </div>
-            <div class="w-[214px] z-0 cursor-pointer">
-            <img src="../assets/image9.svg" alt="icon here" class="w-[120px] h-[42px]">
+        <div
+          class="flex gap-5 animate-infinite_transform2 group-hover/animation-paused:animation-paused"
+        >
+          <div class="w-[214px] z-0 cursor-pointer">
+            <img
+              src="../assets/image8.svg"
+              alt="image here"
+              class="w-[120px] h-[42px]"
+            />
+          </div>
+          <div class="w-[214px] z-0 cursor-pointer">
+            <img
+              src="../assets/image9.svg"
+              alt="icon here"
+              class="w-[120px] h-[42px]"
+            />
+          </div>
+          <div class="w-[214px] z-0 cursor-pointer">
+            <img
+              src="../assets/image10.svg"
+              alt="icon here"
+              class="w-[120px] h-[42px]"
+            />
+          </div>
+          <div class="w-[214px] z-0 cursor-pointer">
+            <img
+              src="../assets/image11.svg"
+              alt="icon here"
+              class="w-[120px] h-[42px]"
+            />
+          </div>
+          <div class="w-[214px] z-0 cursor-pointer">
+            <img
+              src="../assets/image12.svg"
+              alt="icon here"
+              class="w-[120px] h-[42px]"
+            />
+          </div>
         </div>
-            <div class="w-[214px] z-0 cursor-pointer">
-            <img src="../assets/image10.svg" alt="icon here" class="w-[120px] h-[42px]">
+      </div>
+    </div>
+    <div class="w-[1140px] mx-auto relative">
+      <div class="flex justify-between items-center">
+        <h1 class="text-white font-bold text-[42px]">
+          Understanding Neural <br />
+          Networks Theory
+        </h1>
+        <div class="flex gap-5">
+          <div
+            class="w-[60px] h-[60px] bg-[#211A2A] grid place-items-center text-blue-10 rounded-full rotate-180 hover:text-white hover:bg-blue-10 transition-colors duration-300 cursor-pointer"
+          >
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+          <div
+            class="w-[60px] h-[60px] bg-[#211A2A] grid place-items-center text-blue-10 rounded-full hover:text-white hover:bg-blue-10 transition-colors duration-300 cursor-pointer"
+          >
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
         </div>
-            <div class="w-[214px] z-0 cursor-pointer">
-            <img src="../assets/image11.svg" alt="icon here" class="w-[120px] h-[42px]">
-        </div>
-            <div class="w-[214px] z-0 cursor-pointer">
-            <img src="../assets/image12.svg" alt="icon here" class="w-[120px] h-[42px]">
-        </div>
-    </div>
-    <div class="flex gap-5 animate-infinite_transform2 group-hover/animation-paused:animation-paused">
-        <div class="w-[214px] z-0 cursor-pointer">
-        <img src="../assets/image8.svg" alt="image here" class="w-[120px] h-[42px]">
-    </div>
-        <div class="w-[214px] z-0 cursor-pointer">
-        <img src="../assets/image9.svg" alt="icon here" class="w-[120px] h-[42px]">
-    </div>
-        <div class="w-[214px] z-0 cursor-pointer">
-        <img src="../assets/image10.svg" alt="icon here" class="w-[120px] h-[42px]">
-    </div>
-        <div class="w-[214px] z-0 cursor-pointer">
-        <img src="../assets/image11.svg" alt="icon here" class="w-[120px] h-[42px]">
-    </div>
-        <div class="w-[214px] z-0 cursor-pointer">
-        <img src="../assets/image12.svg" alt="icon here" class="w-[120px] h-[42px]">
-    </div>
-</div>
-</div>
-</div>
-<footer class="w-[1140px] mx-auto">
-    <div class="flex justify-between items-center">
-        <h1 class="text-white font-bold text-[42px]">Understanding Neural <br>
-            Networks Theory</h1>
-            <div class="flex gap-5">
-                <div class="w-[60px] h-[60px] bg-[#211A2A] grid place-items-center text-blue-10 rounded-full rotate-180 hover:text-white hover:bg-blue-10 transition-colors duration-300 cursor-pointer"><i class="fa-solid fa-arrow-right"></i></div>
-                <div class="w-[60px] h-[60px] bg-[#211A2A] grid place-items-center text-blue-10 rounded-full hover:text-white hover:bg-blue-10 transition-colors duration-300 cursor-pointer"><i class="fa-solid fa-arrow-right"></i></div>
-            </div>
-    </div>
-    <div class="mt-[60px] overflow-hidden w-[1140px] mx-auto flex gap-10">
+      </div>
+      <div class="mt-[60px] overflow-hidden w-[1140px] mx-auto flex gap-10">
         <div class="animate-infinite_transform flex gap-10">
-        <div class="group/hover_effect_footer_card w-[348px] h-[388px] p-[45px] border-[1px] border-solid border-blue-10 rounded-[20px]">
-            <div class="w-[65px] h-[66px]"><img src="../assets/image13.svg" alt="icon here" class="w-[65px] h-[66px] group-hover/hover_effect_footer_card:rotate-[-6deg] group-hover/hover_effect_footer_card:w-[55px] group-hover/hover_effect_footer_card:h-[56px] duration-500 transition-all"></div>
-            <div>
-                <h1 class="mt-10 text-white font-bold text-2xl cursor-pointer hover:text-blue-10 transition-colors duration-300 inline-block">Synthia</h1>
-                <p class="mt-5 text-white font-medium text-[17px]">AI Artificial Intelligence is a branch of computer science that focuses on the</p>
-                <button class="mt-10 text-white hover:text-blue-10 transition-colors duration-300 font-bold flex items-center gap-2"><p>Read More</p> <i class="fa-solid fa-arrow-right"></i></button>
+          <div
+            class="group/hover_effect_footer_card w-[348px] h-[388px] p-[45px] border-[1px] border-solid border-blue-10 rounded-[20px]"
+          >
+            <div class="w-[65px] h-[66px]">
+              <img
+                src="../assets/image13.svg"
+                alt="icon here"
+                class="w-[65px] h-[66px] group-hover/hover_effect_footer_card:rotate-[-6deg] group-hover/hover_effect_footer_card:w-[55px] group-hover/hover_effect_footer_card:h-[56px] duration-500 transition-all"
+              />
             </div>
-        </div>
-        <div class="group/hover_effect_footer_card w-[348px] h-[388px] p-[45px] border-[1px] border-solid border-blue-10 rounded-[20px]">
-            <div class="w-[65px] h-[66px]"><img src="../assets/image15.svg" alt="icon here" class="w-[65px] h-[66px] group-hover/hover_effect_footer_card:rotate-[-6deg] group-hover/hover_effect_footer_card:w-[55px] group-hover/hover_effect_footer_card:h-[56px] duration-500 transition-all"></div>
             <div>
-                <h1 class="mt-10 text-white font-bold text-2xl cursor-pointer hover:text-blue-10 transition-colors duration-300 inline-block">DeepQuest</h1>
-                <p class="mt-5 text-white font-medium text-[17px]">AI Artificial Intelligence is a branch of computer science that focuses on the</p>
-                <button class="mt-10 text-white hover:text-blue-10 transition-colors duration-300 font-bold flex items-center gap-2"><p>Read More</p> <i class="fa-solid fa-arrow-right"></i></button>
+              <h1
+                class="mt-10 text-white font-bold text-2xl cursor-pointer hover:text-blue-10 transition-colors duration-300 inline-block"
+              >
+                Synthia
+              </h1>
+              <p class="mt-5 text-white font-medium text-[17px]">
+                AI Artificial Intelligence is a branch of computer science that
+                focuses on the
+              </p>
+              <button
+                class="mt-10 text-white hover:text-blue-10 transition-colors duration-300 font-bold flex items-center gap-2"
+              >
+                <p>Read More</p>
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
             </div>
-        </div>
-        <div class="group/hover_effect_footer_card w-[348px] h-[388px] p-[45px] border-[1px] border-solid border-blue-10 rounded-[20px]">
-            <div class="w-[65px] h-[66px]"><img src="../assets/image14.svg" alt="icon here" class="w-[65px] h-[66px] group-hover/hover_effect_footer_card:rotate-[-6deg] group-hover/hover_effect_footer_card:w-[55px] group-hover/hover_effect_footer_card:h-[56px] duration-500 transition-all"></div>
+          </div>
+          <div
+            class="group/hover_effect_footer_card w-[348px] h-[388px] p-[45px] border-[1px] border-solid border-blue-10 rounded-[20px]"
+          >
+            <div class="w-[65px] h-[66px]">
+              <img
+                src="../assets/image15.svg"
+                alt="icon here"
+                class="w-[65px] h-[66px] group-hover/hover_effect_footer_card:rotate-[-6deg] group-hover/hover_effect_footer_card:w-[55px] group-hover/hover_effect_footer_card:h-[56px] duration-500 transition-all"
+              />
+            </div>
             <div>
-                <h1 class="mt-10 text-white font-bold text-2xl cursor-pointer hover:text-blue-10 transition-colors duration-300 inline-block">Analyzar</h1>
-                <p class="mt-5 text-white font-medium text-[17px]">AI Artificial Intelligence is a branch of computer science that focuses on the</p>
-                <button class="mt-10 text-white hover:text-blue-10 transition-colors duration-300 font-bold flex items-center gap-2"><p>Read More</p> <i class="fa-solid fa-arrow-right"></i></button>
+              <h1
+                class="mt-10 text-white font-bold text-2xl cursor-pointer hover:text-blue-10 transition-colors duration-300 inline-block"
+              >
+                DeepQuest
+              </h1>
+              <p class="mt-5 text-white font-medium text-[17px]">
+                AI Artificial Intelligence is a branch of computer science that
+                focuses on the
+              </p>
+              <button
+                class="mt-10 text-white hover:text-blue-10 transition-colors duration-300 font-bold flex items-center gap-2"
+              >
+                <p>Read More</p>
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
             </div>
+          </div>
+          <div
+            class="group/hover_effect_footer_card w-[348px] h-[388px] p-[45px] border-[1px] border-solid border-blue-10 rounded-[20px]"
+          >
+            <div class="w-[65px] h-[66px]">
+              <img
+                src="../assets/image14.svg"
+                alt="icon here"
+                class="w-[65px] h-[66px] group-hover/hover_effect_footer_card:rotate-[-6deg] group-hover/hover_effect_footer_card:w-[55px] group-hover/hover_effect_footer_card:h-[56px] duration-500 transition-all"
+              />
+            </div>
+            <div>
+              <h1
+                class="mt-10 text-white font-bold text-2xl cursor-pointer hover:text-blue-10 transition-colors duration-300 inline-block"
+              >
+                Analyzar
+              </h1>
+              <p class="mt-5 text-white font-medium text-[17px]">
+                AI Artificial Intelligence is a branch of computer science that
+                focuses on the
+              </p>
+              <button
+                class="mt-10 text-white hover:text-blue-10 transition-colors duration-300 font-bold flex items-center gap-2"
+              >
+                <p>Read More</p>
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
         </div>
+        <div class="animate-infinite_transform flex gap-10">
+          <div
+            class="group/hover_effect_footer_card w-[348px] h-[388px] p-[45px] border-[1px] border-solid border-blue-10 rounded-[20px]"
+          >
+            <div class="w-[65px] h-[66px]">
+              <img
+                src="../assets/image13.svg"
+                alt="icon here"
+                class="w-[65px] h-[66px] group-hover/hover_effect_footer_card:rotate-[-6deg] group-hover/hover_effect_footer_card:w-[55px] group-hover/hover_effect_footer_card:h-[56px] duration-500 transition-all"
+              />
+            </div>
+            <div>
+              <h1
+                class="mt-10 text-white font-bold text-2xl cursor-pointer hover:text-blue-10 transition-colors duration-300 inline-block"
+              >
+                Synthia
+              </h1>
+              <p class="mt-5 text-white font-medium text-[17px]">
+                AI Artificial Intelligence is a branch of computer science that
+                focuses on the
+              </p>
+              <button
+                class="mt-10 text-white hover:text-blue-10 transition-colors duration-300 font-bold flex items-center gap-2"
+              >
+                <p>Read More</p>
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+          <div
+            class="group/hover_effect_footer_card w-[348px] h-[388px] p-[45px] border-[1px] border-solid border-blue-10 rounded-[20px]"
+          >
+            <div class="w-[65px] h-[66px]">
+              <img
+                src="../assets/image15.svg"
+                alt="icon here"
+                class="w-[65px] h-[66px] group-hover/hover_effect_footer_card:rotate-[-6deg] group-hover/hover_effect_footer_card:w-[55px] group-hover/hover_effect_footer_card:h-[56px] duration-500 transition-all"
+              />
+            </div>
+            <div>
+              <h1
+                class="mt-10 text-white font-bold text-2xl cursor-pointer hover:text-blue-10 transition-colors duration-300 inline-block"
+              >
+                DeepQuest
+              </h1>
+              <p class="mt-5 text-white font-medium text-[17px]">
+                AI Artificial Intelligence is a branch of computer science that
+                focuses on the
+              </p>
+              <button
+                class="mt-10 text-white hover:text-blue-10 transition-colors duration-300 font-bold flex items-center gap-2"
+              >
+                <p>Read More</p>
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+          <div
+            class="group/hover_effect_footer_card w-[348px] h-[388px] p-[45px] border-[1px] border-solid border-blue-10 rounded-[20px]"
+          >
+            <div class="w-[65px] h-[66px]">
+              <img
+                src="../assets/image14.svg"
+                alt="icon here"
+                class="w-[65px] h-[66px] group-hover/hover_effect_footer_card:rotate-[-6deg] group-hover/hover_effect_footer_card:w-[55px] group-hover/hover_effect_footer_card:h-[56px] duration-500 transition-all"
+              />
+            </div>
+            <div>
+              <h1
+                class="mt-10 text-white font-bold text-2xl cursor-pointer hover:text-blue-10 transition-colors duration-300 inline-block"
+              >
+                Analyzar
+              </h1>
+              <p class="mt-5 text-white font-medium text-[17px]">
+                AI Artificial Intelligence is a branch of computer science that
+                focuses on the
+              </p>
+              <button
+                class="mt-10 text-white hover:text-blue-10 transition-colors duration-300 font-bold flex items-center gap-2"
+              >
+                <p>Read More</p>
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex mt-10 justify-center gap-5">
+        <div>
+          <input
+            type="radio"
+            name="set-color"
+            id="set-color2"
+            class="appearance-none w-[14px] h-[14px] border-[1px] border-solid border-blue-10 inline-block rounded-full checked:bg-blue-10 cursor-pointer duration-300 animate-infinite_transform3 focus:animate-none"
+            checked
+          />
+        </div>
+        <div>
+          <input
+            type="radio"
+            name="set-color"
+            id="set-color2"
+            class="appearance-none w-[14px] h-[14px] border-[1px] border-solid border-blue-10 inline-block rounded-full checked:bg-blue-10 checked:animate-none cursor-pointer duration-300 animate-infinite_transform4 focus:animate-none"
+          />
+        </div>
+        <div>
+          <input
+            type="radio"
+            name="set-color"
+            id="set-color2"
+            class="appearance-none w-[14px] h-[14px] border-[1px] border-solid border-blue-10 inline-block rounded-full checked:bg-blue-10 cursor-pointer duration-300 animate-infinite_transform5 focus:animate-none"
+          />
+        </div>
+        <div>
+          <input
+            type="radio"
+            name="set-color"
+            id="set-color2"
+            class="appearance-none w-[14px] h-[14px] border-[1px] border-solid border-blue-10 inline-block rounded-full checked:bg-blue-10 cursor-pointer duration-300 animate-infinite_transform6 focus:animate-none"
+          />
+        </div>
+      </div>
+
+      <div class="w-[345px] mx-auto h-auto overflow-hidden">
+        <div
+          class="w-[230px] h-[230px] rounded-[800px] bg-blue-10 blur-[130px] absolute mx-auto ml-[70px] animate-infinite_loop opacity-[.4] before:w-full before:h-full before:bg-blue-10 before:absolute before:left-[600px] before:rounded-[800px]"
+        ></div>
+      </div>
     </div>
-    <div class="animate-infinite_transform flex gap-10">
-        <div class="group/hover_effect_footer_card w-[348px] h-[388px] p-[45px] border-[1px] border-solid border-blue-10 rounded-[20px]">
-            <div class="w-[65px] h-[66px]"><img src="../assets/image13.svg" alt="icon here" class="w-[65px] h-[66px] group-hover/hover_effect_footer_card:rotate-[-6deg] group-hover/hover_effect_footer_card:w-[55px] group-hover/hover_effect_footer_card:h-[56px] duration-500 transition-all"></div>
-            <div>
-                <h1 class="mt-10 text-white font-bold text-2xl cursor-pointer hover:text-blue-10 transition-colors duration-300 inline-block">Synthia</h1>
-                <p class="mt-5 text-white font-medium text-[17px]">AI Artificial Intelligence is a branch of computer science that focuses on the</p>
-                <button class="mt-10 text-white hover:text-blue-10 transition-colors duration-300 font-bold flex items-center gap-2"><p>Read More</p> <i class="fa-solid fa-arrow-right"></i></button>
-            </div>
+
+    <div
+      class="w-[1287px] h-[668px] border border-solid border-blue-10 relative rounded-[40px] mx-auto mt-[100px] z-0 before:w-full before:h-full before:rounded-[40px] before:bg-[#161313] before:absolute before:opacity-[.37] before:-z-10 before:backdrop-blur-[10.7486px] grid place-items-center"
+    >
+      <div class="p-[30px] my-auto flex justify-between gap-10">
+        <div>
+          <div class="text-white">
+            <h1 class="text-[70px] font-bold mb-5 text-outline">01</h1>
+            <p class="text-[42px] font-bold w-[540px]">
+              Healthcare Revolutionizing AI Applications in Patient
+            </p>
+            <p class="w-[540px] font-medium mt-5 text-content-color2">
+              AI Artificial Intelligence is a branch of computer science that
+              focuses on the development of intelligent machines that can
+              perform tasks that typically requir
+            </p>
+          </div>
+          <div class="mt-20 flex gap-2">
+            <button
+              class="w-[60px] h-[60px] transition-colors relative z-0 duration-300 text-blue-10 hover:text-white grid place-items-center before:w-full before:h-full before:absolute before:inset-0 before:rounded-full before:bg-blue-10 before:opacity-10 hover:before:opacity-100 before:transition-opacity before:duration-300 before:-z-10"
+            >
+              <i class="fa-solid fa-arrow-left"></i>
+            </button>
+            <button
+              class="w-[60px] h-[60px] transition-colors relative z-0 duration-300 text-blue-10 hover:text-white grid place-items-center before:w-full before:h-full before:absolute before:inset-0 before:rounded-full before:bg-blue-10 before:opacity-10 hover:before:opacity-100 before:transition-opacity before:duration-300 before:-z-10"
+            >
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
         </div>
-        <div class="group/hover_effect_footer_card w-[348px] h-[388px] p-[45px] border-[1px] border-solid border-blue-10 rounded-[20px]">
-            <div class="w-[65px] h-[66px]"><img src="../assets/image15.svg" alt="icon here" class="w-[65px] h-[66px] group-hover/hover_effect_footer_card:rotate-[-6deg] group-hover/hover_effect_footer_card:w-[55px] group-hover/hover_effect_footer_card:h-[56px] duration-500 transition-all"></div>
-            <div>
-                <h1 class="mt-10 text-white font-bold text-2xl cursor-pointer hover:text-blue-10 transition-colors duration-300 inline-block">DeepQuest</h1>
-                <p class="mt-5 text-white font-medium text-[17px]">AI Artificial Intelligence is a branch of computer science that focuses on the</p>
-                <button class="mt-10 text-white hover:text-blue-10 transition-colors duration-300 font-bold flex items-center gap-2"><p>Read More</p> <i class="fa-solid fa-arrow-right"></i></button>
-            </div>
+        <div class="w-[540px] h-[468px]">
+          <img
+            src="../assets/image16.webp"
+            alt="image here"
+            class="inline-block w-full h-full rounded-3xl"
+          />
         </div>
-        <div class="group/hover_effect_footer_card w-[348px] h-[388px] p-[45px] border-[1px] border-solid border-blue-10 rounded-[20px]">
-            <div class="w-[65px] h-[66px]"><img src="../assets/image14.svg" alt="icon here" class="w-[65px] h-[66px] group-hover/hover_effect_footer_card:rotate-[-6deg] group-hover/hover_effect_footer_card:w-[55px] group-hover/hover_effect_footer_card:h-[56px] duration-500 transition-all"></div>
-            <div>
-                <h1 class="mt-10 text-white font-bold text-2xl cursor-pointer hover:text-blue-10 transition-colors duration-300 inline-block">Analyzar</h1>
-                <p class="mt-5 text-white font-medium text-[17px]">AI Artificial Intelligence is a branch of computer science that focuses on the</p>
-                <button class="mt-10 text-white hover:text-blue-10 transition-colors duration-300 font-bold flex items-center gap-2"><p>Read More</p> <i class="fa-solid fa-arrow-right"></i></button>
-            </div>
-        </div>
+      </div>
     </div>
+    <div
+      class="w-[1110px] h-[361px] rounded-[20px] bg-blue-10 text-white mx-auto mt-[100px] p-20 flex justify-between items-center"
+    >
+      <div>
+        <h1 class="text-[30px] font-bold w-[596px]">
+          AI for Social Good Leveraging Technology for Positive Change
+        </h1>
+        <p class="w-[585px] text-content-color2 font-medium text-[17px] mt-5">
+          AI Artificial Intelligence is a branch of computer science that
+          focuses on the development of intelligent machines that can perform
+          tasks that typically require human intelligence. This includes
+          learning
+        </p>
+      </div>
+      <div>
+        <h1 class="text-[70px] font-extrabold">80k+</h1>
+        <p class="text-center mt-2.5 text-xl font-medium">Client review</p>
+        <button
+          class="flex items-center gap-2 justify-center mt-5 py-[17px] px-[28px] text-lg bg-white text-black font-medium rounded-full hover:text-blue-10 transition-colors duration-300"
+        >
+          Join Us Now <i class="fa-solid fa-arrow-right"></i>
+        </button>
+      </div>
     </div>
-    <div class="flex mt-10 justify-center gap-5">
-        <div>
-            <input type="radio" name="set-color" id="set-color1" class="hidden">
-            <label for="set-color1" class="w-[14px] h-[14px] border-[1px] border-solid border-blue-10 inline-block rounded-full"></label>
+    <div class="mt-[100px] mx-auto w-[1140px]">
+      <div class="w-full flex justify-center text-white mb-[90px]">
+        <h1 class="font-bold text-[42px] w-[400px]">
+          AI Social Leveraging Technology Positive
+        </h1>
+      </div>
+      <div class="flex justify-between items-center">
+        <!--this is left card part-->
+        <div
+          class="w-[348px] h-[610px] border border-solid border-blue-10 rounded-[20px] py-[50px] px-10 z-0 relative before:w-full before:h-full before:absolute before:inset-0 before:-z-10 before:backdrop-blur-[10.7486] before:opacity-[.37] before:rounded-[20px]"
+        >
+          <h1 class="text-[30px] text-white font-bold">Consult</h1>
+          <h2
+            class="after:content-['/Month.'] after:font-medium after:text-base after:ml-2.5 after:text-content-color2 after:absolute after:-bottom-[2px] mt-[30px] text-white text-[42px] font-bold relative"
+          >
+            $19
+          </h2>
+          <p class="font-medium leading-[1.6] mt-5 text-content-color2 pb-5">
+            Lorem Ipsum is simply dummy text the printing and typese Lorem Ipsum
+          </p>
+          <hr class="border-[#494949]" />
+          <div class="mt-[30px]">
+            <h1 class="text-white font-bold text-lg flex gap-5 items-center">
+              <i class="fa-solid fa-angle-right text-[#169091]"></i> Mistakes To
+              Avoid
+            </h1>
+            <h1
+              class="text-white font-bold text-lg flex gap-5 items-center mt-2.5"
+            >
+              <i class="fa-solid fa-angle-right text-[#169091]"></i> Your
+              Startup
+            </h1>
+            <h1
+              class="text-white font-bold text-lg flex gap-5 items-center mt-2.5"
+            >
+              <i class="fa-solid fa-angle-right text-[#169091]"></i> Knew About
+              Fonts
+            </h1>
+            <h1
+              class="text-white font-bold text-lg flex gap-5 items-center mt-2.5"
+            >
+              <i class="fa-solid fa-angle-right text-[#169091]"></i> Knew About
+              Fonts
+            </h1>
+          </div>
+          <button
+            class="w-[268px] h-[59px] border border-solid border-blue-10 flex justify-center items-center gap-3 text-white rounded-full mt-10 font-bold text-lg hover:bg-blue-10 transition-colors duration-300"
+          >
+            Join Us Now <i class="fa-solid fa-arrow-right"></i>
+          </button>
         </div>
-        <div>
-            <input type="radio" name="set-color" id="set-color2" class="hidden">
-            <label for="set-color2" class="w-[14px] h-[14px] border-[1px] border-solid border-blue-10 inline-block rounded-full"></label>
+        <!--this is a card center-->
+        <div
+          class="w-[348px] h-[690px] border border-solid border-blue-10 rounded-[20px] py-[50px] px-10 z-0 relative before:w-full before:h-full before:absolute before:inset-0 before:-z-10 before:backdrop-blur-[10.7486] before:opacity-[.37] before:rounded-[20px]"
+        >
+          <h1 class="text-[30px] text-white font-bold">Intensive</h1>
+          <h2
+            class="after:content-['/Month.'] after:font-medium after:text-base after:ml-2.5 after:text-content-color2 after:absolute after:-bottom-[2px] mt-[30px] text-white text-[42px] font-bold relative"
+          >
+            $59
+          </h2>
+          <p class="font-medium leading-[1.6] mt-5 text-content-color2 pb-5">
+            Lorem Ipsum is simply dummy text the printing and typese Lorem Ipsum
+          </p>
+          <hr class="border-[#494949]" />
+          <div class="mt-10">
+            <h1 class="text-white font-bold text-lg flex gap-5 items-center">
+              <i class="fa-solid fa-angle-right text-[#169091]"></i> Mistakes To
+              Avoid
+            </h1>
+            <h1
+              class="text-white font-bold text-lg flex gap-5 items-center mt-2.5"
+            >
+              <i class="fa-solid fa-angle-right text-[#169091]"></i> Your
+              Startup
+            </h1>
+            <h1
+              class="text-white font-bold text-lg flex gap-5 items-center mt-2.5"
+            >
+              <i class="fa-solid fa-angle-right text-[#169091]"></i> Knew About
+              Fonts
+            </h1>
+            <h1
+              class="text-white font-bold text-lg flex gap-5 items-center mt-2.5"
+            >
+              <i class="fa-solid fa-angle-right text-[#169091]"></i> Knew About
+              Fonts
+            </h1>
+          </div>
+          <button
+            class="w-[268px] h-[59px] border border-solid border-blue-10 flex justify-center items-center gap-3 text-white rounded-full mt-[90px] font-bold text-lg hover:bg-blue-10 transition-colors duration-300"
+          >
+            Join Us Now <i class="fa-solid fa-arrow-right"></i>
+          </button>
         </div>
-        <div>
-            <input type="radio" name="set-color" id="set-color3" class="hidden">
-            <label for="set-color3" class="w-[14px] h-[14px] border-[1px] border-solid border-blue-10 inline-block rounded-full"></label>
+        <!--this is a card right-->
+        <div
+          class="w-[348px] h-[610px] border border-solid border-blue-10 rounded-[20px] py-[50px] px-10 z-0 relative before:w-full before:h-full before:absolute before:inset-0 before:-z-10 before:backdrop-blur-[10.7486] before:opacity-[.37] before:rounded-[20px]"
+        >
+          <h1 class="text-[30px] text-white font-bold">Privite</h1>
+          <h2
+            class="after:content-['/Month.'] after:font-medium after:text-base after:ml-2.5 after:text-content-color2 after:absolute after:-bottom-[2px] mt-[30px] text-white text-[42px] font-bold relative"
+          >
+            $39
+          </h2>
+          <p class="font-medium leading-[1.6] mt-5 text-content-color2 pb-5">
+            Lorem Ipsum is simply dummy text the printing and typese Lorem Ipsum
+          </p>
+          <hr class="border-[#494949]" />
+          <div class="mt-[30px]">
+            <h1 class="text-white font-bold text-lg flex gap-5 items-center">
+              <i class="fa-solid fa-angle-right text-[#169091]"></i> Mistakes To
+              Avoid
+            </h1>
+            <h1
+              class="text-white font-bold text-lg flex gap-5 items-center mt-2.5"
+            >
+              <i class="fa-solid fa-angle-right text-[#169091]"></i> Your
+              Startup
+            </h1>
+            <h1
+              class="text-white font-bold text-lg flex gap-5 items-center mt-2.5"
+            >
+              <i class="fa-solid fa-angle-right text-[#169091]"></i> Knew About
+              Fonts
+            </h1>
+            <h1
+              class="text-white font-bold text-lg flex gap-5 items-center mt-2.5"
+            >
+              <i class="fa-solid fa-angle-right text-[#169091]"></i> Knew About
+              Fonts
+            </h1>
+          </div>
+          <button
+            class="w-[268px] h-[59px] border border-solid border-blue-10 flex justify-center items-center gap-3 text-white rounded-full mt-10 font-bold text-lg hover:bg-blue-10 transition-colors duration-300"
+          >
+            Join Us Now <i class="fa-solid fa-arrow-right"></i>
+          </button>
         </div>
-        <div>
-            <input type="radio" name="set-color" id="set-color4" class="hidden">
-            <label for="set-color4" class="w-[14px] h-[14px] border-[1px] border-solid border-blue-10 inline-block rounded-full"></label>
-        </div>
-        <div>
-            <input type="radio" name="set-color" id="set-color5" class="hidden">
-            <label for="set-color5" class="w-[14px] h-[14px] inline-block border-[1px] border-solid border-blue-10 rounded-full"></label>
-        </div>
-        <div>
-            <input type="radio" name="set-color" id="set-color6" class="hidden">
-            <label for="set-color6" class="w-[14px] h-[14px] border-[1px] border-solid border-blue-10 rounded-full inline-block"></label>
-        </div>
+      </div>
     </div>
-</footer>
-</body>
+    <!--next section-->
+    <div
+      class="mt-[100px] w-[1140px] mx-auto group/hover_section relative before:absolute before:w-[420px] before:h-[420px] before:bg-blue-10 before:rounded-[800px] before:left-[35%] before:-translate-x-1/2 before:opacity-40 before:blur-[140px] before:animate-infinite_circle_animation2 after:absolute after:w-[420px] after:h-[420px] after:bg-blue-10 after:rounded-[800px] after:left-[-30%] after:opacity-40 after:blur-[140px] after:animate-infinite_circle_animation2"
+    >
+      <h1
+        class="text-center text-white text-[42px] font-bold group-hover/hover_section:animate-text_animate1"
+      >
+        Ethical Considerations <br />
+        in AI Development
+      </h1>
+      <p
+        class="text-content-color2 text-center w-[495px] mx-auto font-medium group-hover/hover_section:animate-text_animate2"
+      >
+        AI Artificial Intelligence is a branch of computer science that focuses
+        on the development of intelligent machines that
+      </p>
+      <div class="mt-[60px] flex relative">
+        <div
+          class="w-[673px] h-[505px] border border-solid border-blue-10 rounded-[40px] py-[60px] px-10 z-0 before:w-full before:h-full before:opacity-[.37] before:backdrop-blur-[10.7486] before:-z-10 relative before:absolute before:inset-0 before:rounded-[40px] before:bg-[#161313]"
+        >
+          <p class="text-[30px] font-bold text-white">
+            AI Artificial Intelligence is a branch of computer science that
+            focuses on the development of intelligent machines that can perform
+            tasks that typically require human intelligence.
+          </p>
+          <div class="flex gap-5 mt-[55px] items-center">
+            <img
+              src="../assets/image18.webp"
+              alt="icon here"
+              class="w-20 h-20 inline-block"
+            />
+            <div class="text-white">
+              <h1 class="text-white text-[24px] font-bold">Mittie West</h1>
+              <p>Web Developer</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <img
+            src="../assets/image17.webp"
+            alt="iamge here"
+            class="absolute w-[540px] h-[514px] right-8 -z-10 rounded-[20px] -top-1"
+          />
+        </div>
+      </div>
+      <div class="mt-[100px] flex justify-between">
+        <div class="w-[350px]">
+          <div
+            class="w-[60px] h-[60px] border border-solid border-blue-10 rounded-full grid place-items-center text-blue-10 text-2xl font-medium mx-auto"
+          >
+            <i class="fa-brands fa-figma"></i>
+          </div>
+          <h1 class="text-white font-bold text-xl mt-[30px] text-center">
+            AI in Education
+          </h1>
+          <p
+            class="text-center text-content-color2 font-bold mt-[30px] w-[350px]"
+          >
+            AI Artificial Intelligence is a branch of computer science that
+            focuses on the to be good
+          </p>
+        </div>
+        <div class="w-[350px]">
+          <div
+            class="w-[60px] h-[60px] border border-solid border-blue-10 rounded-full grid place-items-center text-blue-10 text-2xl font-medium mx-auto"
+          >
+            <img
+              src="../assets/image21.png"
+              alt="image here"
+              class="w-[29px] h-[29px] mx-auto"
+            />
+          </div>
+          <h1 class="text-white font-bold text-xl mt-[30px] text-center">
+            AI in Education
+          </h1>
+          <p
+            class="text-center text-content-color2 font-bold mt-[30px] w-[350px]"
+          >
+            AI Artificial Intelligence is a branch of computer science that
+            focuses on the to be good
+          </p>
+        </div>
+        <div class="w-[350px]">
+          <div>
+            <img
+              src="../assets/image20.png"
+              alt="image here"
+              class="w-[60px] h-[60px] mx-auto"
+            />
+          </div>
+          <h1 class="text-white font-bold text-xl mt-[30px] text-center">
+            AI in Education
+          </h1>
+          <p
+            class="text-center text-content-color2 font-bold mt-[30px] w-[350px]"
+          >
+            AI Artificial Intelligence is a branch of computer science that
+            focuses on the to be good
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      class="mt-[100px] w-[1108px] h-[408px] border border-solid border-blue-10 rounded-[40px] mx-auto p-20 before:w-full before:h-full before:bg-[#161313] before:absolute relative before:inset-0 before:opacity-[.37] before:backdrop-blur-[10.7486px] before:rounded-[40px] before:-z-10 z-0 mb-[100px]"
+    >
+      <h1 class="text-white text-[30px] font-bold text-center">
+        Customizing User Experiences <br />
+        AI-driven Personalization
+      </h1>
+      <p class="text-content-color2 font-medium text-center mt-5">
+        AI Artificial Intelligence is a branch of computer science that <br />
+        focuses on the development of intelligent machines that can
+      </p>
+      <div class="flex justify-center">
+        <button
+          class="py-[17px] px-[28px] bg-blue-10 font-bold text-lg mt-10 border border-solid border-blue-10 hover:bg-transparent transition-all duration-300 rounded-full text-white flex gap-5 items-center"
+        >
+          Join Us Now <i class="fa-solid fa-arrow-right mt-1"></i>
+        </button>
+      </div>
+    </div>
+    <nav
+      class="bg-[url('../assets/image22.png')] bg-no-repeat bg-cover bg-center w-full h-[502px] relative before:absolute before:inset-0 before:w-full before:h-full before:bg-black before:opacity-70 before:-z-10 z-0 pt-[80px]"
+    >
+      <div class="w-4/5 mx-auto flex justify-between">
+        <div>
+          <div>
+            <div class="mb-10">
+              <img src="../assets/image1.svg" alt="icon here" />
+            </div>
+          </div>
+          <div>
+            <p class="text-content-color2 font-medium w-[400px] text-lg mb-5">
+              Many desktop ublishing packages web page editors no Lorem Ipsum a
+              default model text
+            </p>
+          </div>
+          <div>
+            <form action="#" method="post" class="flex">
+              <input
+                type="email"
+                placeholder="Email address"
+                class="w-[300px] h-[58px] px-5 rounded-full text-white font-medium border-none outline-none pr-[55px] bg-[#161313]"
+                required="required"
+              />
+              <button
+                class="w-[58px] h-[58px] bg-blue-10 text-white grid place-items-center rounded-full -ml-12 hover:bg-white hover:text-blue-10 transition-colors duration-500"
+              >
+                <i class="fa-solid fa-paper-plane"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+        <div>
+          <h1 class="text-white text-2xl font-bold mb-7">Services</h1>
+          <a
+            href="#"
+            class="text-content-color2 font-medium text-[17px] hover:text-blue-10 transition-colors duration-500"
+            >Mindly Sensitivo</a
+          >
+          <a href="#" class="text-animate">Visionize Emotivo</a>
+          <a href="#" class="text-animate">Intelligensia Botify</a>
+          <a href="#" class="text-animate">Cybermind DeepQuest</a>
+        </div>
+        <div>
+          <h1 class="text-white text-2xl font-bold mb-7">Useful Links</h1>
+          <a
+            href="#"
+            class="text-content-color2 font-medium text-[17px] hover:text-blue-10 transition-colors duration-500"
+            >Software Corner</a
+          >
+          <a href="#" class="text-animate">Application Center</a>
+          <a href="#" class="text-animate">Research Section</a>
+          <a href="#" class="text-animate">Developning Corner</a>
+        </div>
+        <div>
+          <h1 class="text-white text-2xl font-bold mb-7">Contact</h1>
+          <a
+            href="#"
+            class="text-content-color2 font-medium text-[17px] hover:text-blue-10 transition-colors duration-500"
+            ><i class="fa-solid fa-phone text-blue-10 mr-2"></i> +880 123
+            45 67 89</a
+          >
+          <a href="#" class="text-animate"
+            ><i class="fa-brands fa-github text-blue-10 mr-2"></i>
+            <span class="ml-2">ab14702580</span></a
+          >
+          <a href="#" class="text-animate"
+            ><i class="fa-solid fa-location-dot text-blue-10 mr-2"></i>
+            <p class="ml-3 inline-block">your pc</p></a
+          >
+          <div class="mt-6 flex">
+            <i
+              class="fa-brands fa-facebook text-white w-[40px] h-[40px] grid place-items-center cursor-pointer rounded-full relative z-0 after:w-full after:h-full after:bg-[#161313] after:inset-0 after:absolute after:opacity-0 after:rounded-full after:duration-300 after:-z-10 hover:after:opacity-100"
+            ></i>
+            <i
+              class="fa-brands fa-github text-white w-[40px] h-[40px] grid place-items-center cursor-pointer rounded-full relative z-0 after:w-full after:h-full after:bg-[#161313] after:inset-0 after:absolute after:opacity-0 after:rounded-full after:duration-300 after:-z-10 hover:after:opacity-100"
+            ></i>
+            <i
+              class="fa-brands fa-twitter text-white w-[40px] h-[40px] grid place-items-center cursor-pointer rounded-full relative z-0 after:w-full after:h-full after:bg-[#161313] after:inset-0 after:absolute after:opacity-0 after:rounded-full after:duration-300 after:-z-10 hover:after:opacity-100"
+            ></i>
+          </div>
+        </div>
+      </div>
+      <div class="w-4/5 mx-auto mt-32">
+        <hr class="border-[#444343]" />
+        <div class="flex justify-between">
+          <div>
+            <p class="mt-5 text-content-color2">
+              ©
+              <span
+                class="text-white hover:text-blue-10 duration-500 cursor-pointer"
+                >Neura AI Saas</span
+              >
+              2024 | All Rights Reserved
+            </p>
+          </div>
+          <div class="mt-5">
+            <a
+              href="#"
+              class="text-white font-medium text-lg relative before:content-['|'] before:text-white before:absolute before:h-[20px] before:top-0 before:right-0 inline-block w-[80px] hover:text-blue-10 duration-300"
+              >Privacy</a
+            >
+            <a
+              href="#"
+              class="text-white font-medium text-lg relative before:content-['|'] before:text-white before:absolute before:h-[20px] before:top-0 before:right-0 inline-block w-[80px] pl-2.5 hover:text-blue-10 duration-300"
+              >Terms</a
+            >
+            <a
+              href="#"
+              class="text-white font-medium text-lg relative before:content-['|'] before:text-white before:absolute before:h-[20px] before:top-0 before:right-0 inline-block w-[95px] pl-2.5 hover:text-blue-10 duration-300"
+              >Sitemap</a
+            >
+            <a
+              href="#"
+              class="text-white font-medium text-lg pl-2.5 hover:text-blue-10 duration-300"
+              >Help</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+  </body>
 </html>
